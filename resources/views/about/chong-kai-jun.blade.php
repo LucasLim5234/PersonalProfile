@@ -38,26 +38,73 @@
     <div class="container text-center">
         <h2 class="fw-bold text-secondary mb-4">My Skills</h2>
         <div class="row g-4">
-            @php
-                $skills = [
-                    ['icon' => 'bi-code-slash', 'color' => 'primary', 'title' => 'Web Development', 'desc' => 'Crafting responsive, modern websites using HTML, CSS, JS & Laravel.'],
-                    ['icon' => 'bi-phone', 'color' => 'success', 'title' => 'Mobile Apps', 'desc' => 'Building cross-platform mobile apps with Flutter & Dart.'],
-                    ['icon' => 'bi-palette', 'color' => 'warning', 'title' => 'UI/UX Design', 'desc' => 'Designing elegant, user-friendly, and engaging interfaces.'],
-                    ['icon' => 'bi-git', 'color' => 'danger', 'title' => 'Version Control', 'desc' => 'Collaborating with Git & GitHub to manage projects efficiently.'],
-                    ['icon' => 'bi-cpu', 'color' => 'info', 'title' => 'Problem Solving', 'desc' => 'Tackling challenges using logic, data, and creativity.'],
-                    ['icon' => 'bi-lightbulb', 'color' => 'secondary', 'title' => 'Continuous Learning', 'desc' => 'Exploring new technologies and improving development skills.'],
-                ];
-            @endphp
 
-            @foreach ($skills as $skill)
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm p-4 h-100 skill-card rounded-4" style="transition: 0.3s;">
-                        <i class="bi {{ $skill['icon'] }} text-{{ $skill['color'] }} display-4 mb-3"></i>
-                        <h5 class="fw-bold text-dark">{{ $skill['title'] }}</h5>
-                        <p class="text-muted">{{ $skill['desc'] }}</p>
-                    </div>
+            <!-- Web Development -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm p-4 h-100 skill-card rounded-4" style="transition: 0.3s;">
+                    <i class="bi bi-code-slash text-primary display-4 mb-3"></i>
+                    <h5 class="fw-bold text-dark">Web Development</h5>
+                    <p class="text-muted">
+                        Crafting responsive, modern websites using HTML, CSS, JS & Laravel.
+                    </p>
                 </div>
-            @endforeach
+            </div>
+
+            <!-- Mobile Apps -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm p-4 h-100 skill-card rounded-4" style="transition: 0.3s;">
+                    <i class="bi bi-phone text-success display-4 mb-3"></i>
+                    <h5 class="fw-bold text-dark">Mobile Apps</h5>
+                    <p class="text-muted">
+                        Building cross-platform mobile apps with Flutter & Dart.
+                    </p>
+                </div>
+            </div>
+
+            <!-- UI/UX Design -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm p-4 h-100 skill-card rounded-4" style="transition: 0.3s;">
+                    <i class="bi bi-palette text-warning display-4 mb-3"></i>
+                    <h5 class="fw-bold text-dark">UI/UX Design</h5>
+                    <p class="text-muted">
+                        Designing elegant, user-friendly, and engaging interfaces.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Version Control -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm p-4 h-100 skill-card rounded-4" style="transition: 0.3s;">
+                    <i class="bi bi-git text-danger display-4 mb-3"></i>
+                    <h5 class="fw-bold text-dark">Version Control</h5>
+                    <p class="text-muted">
+                        Collaborating with Git & GitHub to manage projects efficiently.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Problem Solving -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm p-4 h-100 skill-card rounded-4" style="transition: 0.3s;">
+                    <i class="bi bi-cpu text-info display-4 mb-3"></i>
+                    <h5 class="fw-bold text-dark">Problem Solving</h5>
+                    <p class="text-muted">
+                        Tackling challenges using logic, data, and creativity.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Continuous Learning -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm p-4 h-100 skill-card rounded-4" style="transition: 0.3s;">
+                    <i class="bi bi-lightbulb text-secondary display-4 mb-3"></i>
+                    <h5 class="fw-bold text-dark">Continuous Learning</h5>
+                    <p class="text-muted">
+                        Exploring new technologies and improving development skills.
+                    </p>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -88,7 +135,7 @@
     </div>
 </section>
 
-<!-- Skill -->
+<!-- The card will move to upper some after mouse move to card -->
 <style>
     .skill-card:hover {
         transform: translateY(-8px);
