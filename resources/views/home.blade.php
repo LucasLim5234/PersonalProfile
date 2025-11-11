@@ -131,7 +131,7 @@ particlesJS("particles-js", {
                 <div class="card mb-3" style="width: 500px; height: 200px;">
                     <div class="row g-0 h-100">
                         <div class="col-md-4 h-100">
-                            <img src="harambe.jpg" class="img-fluid rounded-start" alt="photo of chong hong xiong" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="chxxhoh.jpeg" class="img-fluid rounded-start" alt="photo of chong hong xiong" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">

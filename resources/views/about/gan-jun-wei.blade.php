@@ -4,7 +4,7 @@
     <div class="container-fluid my-3">
         <div class="row">
             <div class="col-4 d-flex justify-content-center ">
-                <img src="/gan.jpg" alt="photo of gan" class="img-thumbnail rounded-start" style="width:50%; height:auto;">
+                <img src="/gan.jpg" alt="photo of gan" class="img-thumbnail rounded-start" style="width:50%; height:auto; object-fit:contain">
             </div>
             <div class="col-8 d-flex flex-column justify-content-center">
                 <div class="mx-3">
