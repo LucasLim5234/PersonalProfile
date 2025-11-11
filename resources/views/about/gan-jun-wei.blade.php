@@ -75,16 +75,18 @@
                 <div class="row-cols">
                     <h3>Hobby</h3>
                     <ul>
-                        <li>Music (Bossa Nova  🇧🇷)</li>
-                        <li>Below attached one of my favourite 🎷</li>
+                        <li>Music</li>
+                        <li>Enjoy the attached music video ~</li>
                     </ul>
                     <iframe 
-                        width="710" height="400" src="https://www.youtube.com/embed/9CG6FBrsizk" 
-                        title="Lisa Ono &quot;Garota de Ipanema&quot; Live at Java Jazz Festival 2007" 
+                        width="710" height="400" 
+                        src="https://www.youtube.com/embed/6okxuiiHx2w" 
+                        title="Breakbot - Baby I&#39;m Yours (feat. Irfane) [Official Video]" 
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                     </iframe>
-                    </div>
+                    
+                </div>
             </div>
             
         </div>
