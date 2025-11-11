@@ -60,7 +60,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title">Flutter & Dart</h5>
                             <p class="card-text">Creating beautiful and responsive mobile apps for iOS and Android.</p>
-                            <span class="badge bg-info text-dark">75%</span>
+                            <span class="badge bg-info text-dark">90%</span>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title">Git & Version Control</h5>
                             <p class="card-text">Collaborating effectively and maintaining project history with Git.</p>
-                            <span class="badge bg-secondary">90%</span>
+                            <span class="badge bg-secondary">75%</span>
                         </div>
                     </div>
                 </div>
@@ -87,24 +87,24 @@
     </section>
     <section class="py-5">
         <div class="container">
-            <h2 class="text-center mb-5">Experience & Education</h2>
+            <h2 class="text-center mb-5">My Hobbies</h2>
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <ul class="list-unstyled">
                         <li class="mb-5">
-                            <h5>Web Developer Intern at XYZ Company</h5>
-                            <p class="text-muted mb-1"><small>2023 - Present</small></p>
-                            <p> Designed and developed web applications using Laravel and Bootstrap</p>
+                            <h5>Badminton</h5>
+                            <p class="text-muted mb-1"><small>Indoor Sport</small></p>
+                            <p>Playing badminton to improve agility, reflexes and teamwork</p>
                         </li>
                         <li class="mb-5">
-                            <h5>IT Support Intern at ABC Company</h5>
-                            <p class="text-muted mb-1"><small>2022</small></p>
-                            <p>Provided technical support for software and network-related issues for over 50 users</p>
+                            <h5>Pickleball</h5>
+                            <p class="text-muted mb-1"><small>Indoor Sport</small></p>
+                            <p>Enjoying pickleball for fun, strategy and social interaction</p>
                         </li>
                         <li>
-                            <h5>Sijil Tinggi Persekolahan Malaysia (STPM)</h5>
-                            <p class="text-muted mb-1"><small>2019 - 2021</small></p>
-                            <p>Graduated with a CGPA of 2.99</p>
+                            <h5>Kayaking</h5>
+                            <p class="text-muted mb-1"><small>Outdoor Adventure</small></p>
+                            <p>Exploring rivers and lakes through kayaking, embracing nature and fitness</p>
                         </li>
                     </ul>
                 </div>
