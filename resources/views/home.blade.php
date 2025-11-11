@@ -43,7 +43,7 @@
                 <div class="card mb-3" style="width: 500px; height: 200px;">
                     <div class="row g-0 h-100">
                         <div class="col-md-4 h-100">
-                            <img src="gan-jun-wei.jpg" class="rounded-start" alt="photo of gan jun wei" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="gan.jpg" class="rounded-start" alt="photo of gan" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
