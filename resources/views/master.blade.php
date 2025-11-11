@@ -18,23 +18,96 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+                <ul class="nav nav-underline">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
+                        <a @class([
+                                'nav-link',
+                                'link-dark',
+                                'active' => request()->routeIs('home'),
+                            ])
+                            @if(request()->routeIs('home'))
+                                aria-current="page"
+                            @endif
+                            href="{{ route('home') }}">
+                            Home
+                        </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a @class([
+                                'nav-link',
+                                'dropdown-toggle',
+                                'link-dark',
+                                'active' => request()->routeIs('about.*'),
+                            ])
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             About
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="{{ route('about.chong-kai-jun') }}">Chong Kai Jun</a></li>
-                            <li><a class="dropdown-item" href="{{ route('about.lim-eng-seng') }}">Lim Eng Seng</a></li>
-                            <li><a class="dropdown-item" href="{{ route('about.gan-jun-wei') }}">Gan Jun Wei</a></li>
-                            <li><a class="dropdown-item" href="{{ route('about.chong-hong-xiong') }}">Chong Hong Xiong</a></li>
+                            <li>
+                                <a @class([
+                                    'dropdown-item', 
+                                    'active' => request()->routeIs('about.chong-kai-jun')
+                                    ])
+                                    @if(request()->routeIs('about.chong-kai-jun')) 
+                                        aria-current="page" 
+                                    @endif
+                                    href="{{ route('about.chong-kai-jun') }}">
+                                    Chong Kai Jun
+                                </a>
+                            </li>
+                            <li>
+                                <a @class([
+                                    'dropdown-item', 
+                                    'active' => request()->routeIs('about.lim-eng-seng')
+                                    ])
+                                    @if(request()->routeIs('about.lim-eng-seng')) 
+                                        aria-current="page" 
+                                    @endif
+                                    href="{{ route('about.lim-eng-seng') }}">
+                                    Lim Eng Seng
+                                </a>
+                            </li>
+                            <li>
+                                <a @class([
+                                    'dropdown-item', 
+                                    'active' => request()->routeIs('about.gan-jun-wei')
+                                    ])
+                                    @if(request()->routeIs('about.gan-jun-wei')) 
+                                        aria-current="page" 
+                                    @endif
+                                    href="{{ route('about.gan-jun-wei') }}">
+                                    Gan Jun Wei
+                                </a>
+                            </li>
+                            <li>
+                                <a @class([
+                                    'dropdown-item', 
+                                    'active' => request()->routeIs('about.chong-hong-xiong')
+                                    ])
+                                    @if(request()->routeIs('about.chong-hong-xiong')) 
+                                        aria-current="page" 
+                                    @endif
+                                    href="{{ route('about.chong-hong-xiong') }}">
+                                    Chong Hong Xiong
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ route('contact') }}">Contact</a>
+                        <a @class([
+                                'nav-link',
+                                'link-dark',
+                                'active' => request()->routeIs('contact'),
+                            ])
+                            @if(request()->routeIs('contact'))
+                                aria-current="page"
+                            @endif
+                            href="{{ route('contact') }}">
+                            Contact
+                        </a>
                     </li>
                 </ul>
             </div>
