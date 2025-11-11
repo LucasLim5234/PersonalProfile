@@ -25,7 +25,7 @@
                     Beyond coding, I’m always exploring new technologies and improving my skills to stay up to date in the ever-evolving world of development.
                 </p>
                 <div class="mt-4">
-                    <a href="{{ route('contact') }}" class="btn btn-secondary me-2 px-4 rounded-pill shadow-sm">Contact Me</a>
+                    <a href="{{ route('contact') }}" class="btn btn-secondary me-2 px-4 rounded-pill shadow-sm">Contact Us</a>
                     <a href="{{ route('home') }}" class="btn btn-outline-secondary px-4 rounded-pill">Back to Home</a>
                 </div>
             </div>
@@ -62,33 +62,33 @@
     </div>
 </section>
 
-<!-- Experience & Education -->
+<!-- Hobbies & Interests -->
 <section class="py-5">
     <div class="container">
-        <h2 class="fw-bold text-center text-secondary mb-5">Experience & Education</h2>
+        <h2 class="fw-bold text-center text-secondary mb-5">Hobbies & Interests</h2>
         <div class="timeline mx-auto" style="max-width: 800px;">
             <div class="card mb-4 border-0 shadow-sm rounded-4 p-4 hover-shadow">
-                <h5 class="fw-bold text-dark">Web Developer Intern — U & Me Company</h5>
-                <p class="text-muted mb-1"><small>2023 - Present</small></p>
-                <p>Developed interactive web applications using Laravel and Bootstrap, improving UI performance and user engagement.</p>
+                <h5 class="fw-bold text-dark">Gaming</h5>
+                <p class="text-muted mb-1"><small>Strategy & Team-based Games</small></p>
+                <p>I love playing multiplayer games that challenge my reflexes, teamwork and also inspire my creativity in UI and interactive design.</p>
             </div>
 
             <div class="card mb-4 border-0 shadow-sm rounded-4 p-4 hover-shadow">
-                <h5 class="fw-bold text-dark">IT Support Intern — Netpro Company</h5>
-                <p class="text-muted mb-1"><small>2022</small></p>
-                <p>Provided technical support and network troubleshooting for 50+ users, ensuring smooth daily operations.</p>
+                <h5 class="fw-bold text-dark">Photography</h5>
+                <p class="text-muted mb-1"><small>Capturing Everyday Moments</small></p>
+                <p>Photography helps me appreciate design and lighting that help me carry over beautifully into front-end development and app visuals.</p>
             </div>
 
             <div class="card border-0 shadow-sm rounded-4 p-4 hover-shadow">
-                <h5 class="fw-bold text-dark">Sijil Tinggi Persekolahan Malaysia (STPM)</h5>
-                <p class="text-muted mb-1"><small>2019 - 2021</small></p>
-                <p>Graduated with CGPA 3.50 — majoring in Computer Science and Mathematics.</p>
+                <h5 class="fw-bold text-dark">Outdoor Activities</h5>
+                <p class="text-muted mb-1"><small>Health & Motivation</small></p>
+                <p>I enjoy play badminton to stay active and clear my mind. Staying fit keeps me focused and energized for long coding sessions.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Custom Style -->
+<!-- Skill -->
 <style>
     .skill-card:hover {
         transform: translateY(-8px);
