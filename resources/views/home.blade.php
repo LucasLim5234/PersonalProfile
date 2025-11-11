@@ -7,7 +7,7 @@
                 <div class="card mb-3" style="width: 500px; height: 200px;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="chong-kai-jun.jpg" class="img-fluid rounded-start" alt="photo of chong kai jun">
+                            <img src="kai photo short.png" class="img-fluid rounded-start" alt="photo of chong kai jun">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -20,12 +20,12 @@
                 </div>
             </div>
         </div>
-        <div class="row justify-content-start">
+        <div class="row justify-content-end">
             <div class="col-6">
                 <div class="card mb-3" style="width: 500px; height: 200px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="lim-eng-seng.jpg" class="img-fluid rounded-start" alt="photo of lim eng seng">
+                    <div class="row g-0 h-100">
+                        <div class="col-md-4 h-100">
+                            <img src="lucasLim.jpg" class="img-fluid rounded-start" alt="photo of lim eng seng" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -42,7 +42,7 @@
             <div class="col-6">
                 <div class="card mb-3" style="width: 500px; height: 200px;">
                     <div class="row g-0 h-100">
-                        <div class="col-md-4" style="overflow: hidden;">
+                        <div class="col-md-4 h-100" style="overflow: hidden;">
                             <img src="gan-jun-wei.jpg" class="rounded-start" alt="photo of gan jun wei" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="col-md-8">
