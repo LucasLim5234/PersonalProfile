@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-    <div class="py-4 text-center bg-primary text-white">
+    <div class="py-4 text-center bg-primary" style="background: linear-gradient(120deg, #737374ff, #f7f5f5ff);">
         <div class="container">
             <h1 class="fw-bold mb-4">Get in Touch</h1>
             <p class="lead mb-0">Whether you have a question, project idea or just want to say hello — feel free to reach out.</p>
@@ -12,7 +12,7 @@
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-7">
                 <div class="card shadow-lg">
-                    <div class="card-header text-center bg-primary text-white">
+                    <div class="card-header text-center bg-secondary text-white">
                         <h4 class="mb-0">Contact Us</h4>
                     </div>
                     <div class="card-body">
@@ -30,7 +30,7 @@
                                 <textarea id="message" rows="4" class="form-control" placeholder="Enter your message" required></textarea>
                             </div>
                             <div class="d-grid">
-                                <button type="submit" class="btn btn-primary">Send Message</button>
+                                <button type="submit" class="btn btn-secondary">Send Message</button>
                             </div>
                         </form>
                     </div>
