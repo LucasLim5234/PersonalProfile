@@ -5,9 +5,9 @@
         <div class="row justify-content-start">
             <div class="col-6">
                 <div class="card mb-3" style="width: 500px; height: 200px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="kai photo short.png" class="img-fluid rounded-start" alt="photo of chong kai jun">
+                    <div class="row g-0 h-100">
+                        <div class="col-md-4 h-100">
+                            <img src="kai photo short.png" class="img-fluid rounded-start" alt="photo of chong kai jun" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -42,7 +42,7 @@
             <div class="col-6">
                 <div class="card mb-3" style="width: 500px; height: 200px;">
                     <div class="row g-0 h-100">
-                        <div class="col-md-4 h-100" style="overflow: hidden;">
+                        <div class="col-md-4 h-100">
                             <img src="gan-jun-wei.jpg" class="rounded-start" alt="photo of gan jun wei" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="col-md-8">
@@ -59,9 +59,9 @@
         <div class="row justify-content-end">
             <div class="col-6">
                 <div class="card mb-3" style="width: 500px; height: 200px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="chong-hong-xiong.jpg" class="img-fluid rounded-start" alt="photo of chong hong xiong">
+                    <div class="row g-0 h-100">
+                        <div class="col-md-4 h-100">
+                            <img src="chong-hong-xiong.jpg" class="img-fluid rounded-start" alt="photo of chong hong xiong" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
