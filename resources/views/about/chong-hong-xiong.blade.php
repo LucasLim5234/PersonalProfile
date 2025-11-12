@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-<section class="container text-center mb-5">
+<section class="container-fluid text-center mb-5">
     <h2 class="fw-bold text-dark" style="font-family:'Courier New', Courier, monospace;">Welcome To My Page</h2>
     <h5 class="text-dark" style="font-family:'Courier New', Courier, monospace">Explore to know more about me: Chong Hong Xiong (CD22052)</h5>
     <section id="slider" style="background: linear-gradient(indigo, #d30097ff)">
@@ -28,8 +28,10 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <hr style="border: 2px solid #5b00d3ff; margin: 5px auto;">
     </section>
+    <div class="mt-4">
+        <hr style="border: 2px solid #5b00d3ff; margin: 5px auto; width:80%;">
+    </div>
 </section>
 <section class="container-fluid" style="background: linear-gradient(indigo, #d30097ff); height:500px;">
     <div class="row" style="padding:60px">
@@ -73,7 +75,7 @@
         </div>
     </div>
     <div class="container text-center my-4">
-        <div class="row g-4"> 
+        <div class="row g-4">
             <div class="col-md-3">
                 <div class="card h-100 shadow-sm">
                     <img src="/figmaicon.png" class="card-img-top mt-3"
@@ -125,6 +127,43 @@
     </div>
     <hr style="border: 2px solid #5b00d3ff; margin: 10px auto; width:80%">
 </section>
-<section></section>
+<section class="container-fluid">
+    <div class="mt-5">
+        <h2 class="fw-bold text-dark text-center" style="font-family:'Courier New', Courier, monospace; margin: 10px">
+            My Hobbies
+        </h2>
+    </div>
+    <div class="row justify-content-center text-center g-3 m-5 rounded-5"
+        style="background: linear-gradient(indigo, #d30097ff); height: fit-content;">
+
+        <div class="col-md-3 border border-light border-2 rounded-4" style="margin:30px">
+            <p class="fw-bold text-light" style="font-family:'Courier New', Courier, monospace; margin-top:8px">Playing Games</p>
+            <p class="text-light" style="font-family:'Courier New', Courier, monospace;">I enjoy playing mobile and computer games 🎮🎮</p>
+            <p class="text-light" style="font-family:'Courier New', Courier, monospace; font-style:italic">#Chill&Relax</p>
+        </div>
+
+        <div class="col-md-3 border border-light border-2 rounded-4" style="margin:30px">
+            <p class="fw-bold text-light" style="font-family:'Courier New', Courier, monospace; margin-top:8px">Watching Anime</p>
+            <p class="text-light" style="font-family:'Courier New', Courier, monospace;">I enjoy watching 3D chinese animes such as 凡人修仙传 👁️👁️</p>
+            <p class="text-light" style="font-family:'Courier New', Courier, monospace; font-style:italic">#ChineseAnime</p>
+        </div>
+
+        <div class="col-md-3 border border-light border-2 rounded-4" style="margin:30px">
+            <p class="fw-bold text-light" style="font-family:'Courier New', Courier, monospace; margin-top:8px">Playing Sports</p>
+            <p class="text-light" style="font-family:'Courier New', Courier, monospace;">I enjoy playing badminton and basketball 🏸🏀</p>
+            <p class="text-light" style="font-family:'Courier New', Courier, monospace; font-style:italic">#SportsLife</p>
+        </div>
+    </div>
+</section>
+<section class="text-center">
+    <div style="height:200px mt-5">
+        <hr style="border: 2px solid #5b00d3ff; margin: 10px auto; width:80%">
+    </div>
+    <div class="mt-5">
+        <h4 class="fw-bold text-dark text-center" style="font-family:'Courier New', Courier, monospace; margin: 10px">
+            That's all from me, feel free to contact with me............
+        </h4>
+    </div>
+</section>
 
 @endsection
