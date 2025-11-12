@@ -4,8 +4,9 @@
     <section class="py-5">
         <div class="container">
             <div class="row g-5 text-center">
-                <div class="col-lg-6">
-                    <img src="/lucasLim.jpg" class="rounded shadow-lg w-25">
+                <div class="col-lg-6 d-flex flex-column align-items-center">
+                    <img src="/lucasLim.jpg" class="rounded shadow-lg w-25 mb-3">
+                    <a href="{{ route('contact') }}" class="btn btn-secondary px-4 rounded-pill shadow-sm">Contact Me</a>
                 </div>
                 <div class="col-lg-6">
                     <h2 class="mb-3">About Me</h2>
